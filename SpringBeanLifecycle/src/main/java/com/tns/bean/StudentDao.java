@@ -41,7 +41,7 @@ public class StudentDao
 
 		//execute a query
 	   Statement s =con.createStatement();
-	   ResultSet r=s.executeQuery("SELECT * FROM m16.book;");
+	   ResultSet r=s.executeQuery("SELECT * FROM m16.book");
 		while(r.next())
 		{
 			int id=r.getInt(1);
